@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<!-- saved from url=(0173)file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>مساري للبكالوريا</title>
+<style>
+:root{--bg:#050b12;--gold:#d9b76b;--gold2:#f0d38a;--blue:#0d4db8;--white:#edf3ff;--muted:#a9b8d3;--line:rgba(217,183,107,.3);--glass:rgba(16,27,42,.55);--goldtxt:#f0d38a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Segoe UI",Tahoma,sans-serif;background:var(--bg);color:var(--white);line-height:1.6;overflow-x:hidden}
+body.lock{overflow:hidden}
+a{color:inherit;text-decoration:none}
+#fx,.aurora,#glow{position:fixed;pointer-events:none}
+#fx{inset:0;z-index:0}
+.aurora{inset:0;z-index:0;overflow:hidden}
+.aurora i{position:absolute;width:48vmax;height:48vmax;border-radius:50%;filter:blur(90px);opacity:.33;animation:drift 18s ease-in-out infinite alternate}
+.aurora i:nth-child(1){background:var(--blue);top:-15%;right:-10%}
+.aurora i:nth-child(2){background:#7a5cff;bottom:-20%;left:-15%;opacity:.22;animation-delay:-6s}
+.aurora i:nth-child(3){background:var(--gold);top:40%;left:35%;width:28vmax;height:28vmax;opacity:.1;animation-delay:-12s}
+@keyframes drift{to{transform:translate(8vmax,6vmax) scale(1.25) rotate(40deg)}}
+#glow{width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;background:radial-gradient(circle,rgba(217,183,107,.13),transparent 65%);z-index:0;left:0;top:0}
+#bar{position:fixed;top:0;right:0;height:3px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2),#7a8cff);z-index:3000}
+header,main,footer{position:relative;z-index:1}
+.container{width:min(1180px,calc(100% - 32px));margin:0 auto}
+
+/* entry */
+.entry{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,#0d2347,#050b12 70%);transition:opacity .8s,visibility .8s,transform .8s}
+.entry.hidden{opacity:0;visibility:hidden;transform:scale(1.15)}
+.entry-box{text-align:center;padding:30px;max-width:520px;animation:rise 1s both}
+.entry-mark{font-size:3rem !important;width:96px;height:96px;margin:0 auto 22px;border-radius:28px;display:grid;place-items:center;font-size:2.8rem;font-weight:900;color:#0a0d12;background:linear-gradient(135deg,var(--gold),var(--gold2));position:relative;animation:float 3.5s ease-in-out infinite}
+.entry-mark::before,.entry-mark::after{content:"";position:absolute;inset:-12px;border-radius:36px;border:2px solid var(--gold);opacity:0;animation:ping 2.6s infinite}
+.entry-mark::after{animation-delay:1.3s}
+@keyframes ping{0%{transform:scale(.8);opacity:.7}100%{transform:scale(1.5);opacity:0}}
+@keyframes float{50%{transform:translateY(-14px) rotate(4deg)}}
+@keyframes rise{from{opacity:0;transform:translateY(40px)}}
+.entry h1{margin:0 0 10px;font-size:2.4rem}
+.entry p{color:var(--muted);margin:0 0 26px}
+
+/* nav */
+.topbar{position:sticky;top:0;z-index:999;backdrop-filter:blur(16px);background:rgba(8,13,20,.6);border-bottom:1px solid rgba(217,183,107,.18)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:70px;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.2rem}
+.brand-mark{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a0d12;font-weight:900;box-shadow:0 6px 20px rgba(217,183,107,.45)}
+.nav-links{display:flex;gap:24px;color:var(--muted)}
+.nav-links a{position:relative;padding:4px 0;transition:.3s}
+.nav-links a::after{content:"";position:absolute;bottom:0;right:0;width:0;height:2px;background:var(--gold);transition:.3s}
+.nav-links a:hover{color:var(--gold)}.nav-links a:hover::after{width:100%}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:14px;padding:14px 24px;border:1px solid var(--line);cursor:pointer;font:700 1rem inherit;font-family:inherit;color:var(--white);background:rgba(255,255,255,.04);transition:.3s;position:relative;overflow:hidden}
+.btn.primary{isolation:isolate;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0b0d10;border:0;box-shadow:0 10px 25px rgba(217,183,107,.35)}
+.btn.primary::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:rgba(255,255,255,.55);transform:skewX(-20deg);animation:shine 3s infinite;z-index:-1}
+@keyframes shine{to{left:130%}}
+.btn:hover{transform:translateY(-3px) scale(1.03)}
+
+/* hero */
+.hero{padding:60px 0 40px}
+.hero-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.eyebrow{display:inline-block;padding:8px 16px;background:rgba(13,77,184,.25);border:1px solid var(--line);border-radius:99px;color:var(--goldtxt);font-size:.85rem;margin-bottom:16px;animation:rise .8s both}
+h1.title{font-size:clamp(3rem,6vw,5.6rem);line-height:1.08;margin:0 0 18px;font-weight:900}
+.title .shim{display:block;background:linear-gradient(110deg,#fff 20%,var(--gold) 40%,#7a8cff 60%,#fff 80%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 5s linear infinite}
+@keyframes shimmer{to{background-position:-250% 0}}
+.hero p.lead{color:var(--muted);font-size:1.1rem;max-width:600px;margin:0 0 24px}
+.actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:28px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:520px}
+.stat{background:var(--glass);border:1px solid rgba(217,183,107,.18);border-radius:18px;padding:14px 16px;backdrop-filter:blur(8px)}
+.stat strong{display:block;font-size:1.7rem;color:var(--goldtxt)}
+.stat span{font-size:.8rem;color:var(--muted)}
+
+/* orbit graphic */
+.hero-visual{display:grid;place-items:center;gap:18px}
+.orb{position:relative;width:min(380px,82vw);aspect-ratio:1}
+.ring{position:absolute;border:1px dashed var(--line);border-radius:50%;animation:spin var(--d) linear infinite}
+.r1{inset:0;--d:26s}.r2{inset:15%;--d:16s;animation-direction:reverse}.r3{inset:30%;--d:10s}
+.ring b{position:absolute;width:48px;height:48px;margin:-24px 0 0 -24px;display:grid;place-items:center;font-size:1.5rem;border-radius:14px;background:var(--glass);border:1px solid var(--line);backdrop-filter:blur(6px);animation:spin var(--d) linear infinite reverse;box-shadow:0 0 20px rgba(13,77,184,.5)}
+.r2 b{animation-direction:normal}
+.ring b:nth-child(1){top:0;left:50%}.ring b:nth-child(2){top:100%;left:50%}.ring b:nth-child(3){top:50%;left:0}.ring b:nth-child(4){top:50%;left:100%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.core{position:absolute;inset:38%;border-radius:50%;display:grid;place-items:center;font-size:3rem;font-weight:900;color:#0a0d12;background:radial-gradient(circle at 30% 30%,var(--gold2),var(--gold));animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 30px rgba(217,183,107,.5)}50%{box-shadow:0 0 80px rgba(217,183,107,.9),0 0 130px rgba(13,77,184,.6)}}
+.chart{display:flex;align-items:flex-end;gap:10px;height:90px;padding:14px 18px;width:min(380px,82vw);background:var(--glass);border:1px solid var(--line);border-radius:20px;backdrop-filter:blur(8px)}
+.chart span{flex:1;border-radius:8px 8px 3px 3px;background:linear-gradient(180deg,var(--gold2),var(--blue));transform-origin:bottom;animation:grow 2.4s ease-in-out infinite alternate;animation-delay:calc(var(--i)*.25s)}
+@keyframes grow{from{transform:scaleY(.35)}}
+
+/* marquee */
+.marquee{overflow:hidden;border-block:1px solid rgba(217,183,107,.15);background:rgba(8,13,20,.5);padding:12px 0;margin:20px 0 0;direction:ltr}
+.marquee div{display:flex;gap:46px;width:max-content;animation:mq 34s linear infinite;color:var(--goldtxt);font-weight:700;direction:rtl}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* sections */
+.section{padding:56px 0}
+.head{margin-bottom:26px}
+.head h2{font-size:2.2rem;margin:0 0 6px;position:relative;display:inline-block}
+.head h2::after{content:"";position:absolute;right:0;bottom:-6px;height:3px;width:60%;background:linear-gradient(90deg,var(--gold),transparent);border-radius:3px}
+.head p{color:var(--muted);margin:12px 0 0}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:26px}
+.rv{opacity:0;translate:0 34px;transition:opacity .8s,translate .8s,transform .25s,box-shadow .3s,border-color .3s}
+.rv.in{opacity:1;translate:0 0}
+.glass{background:var(--glass);border:1px solid rgba(217,183,107,.2);border-radius:22px;backdrop-filter:blur(10px);box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.track-card{padding:20px;cursor:pointer;position:relative;overflow:hidden}
+.track-card::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at var(--mx,50%) var(--my,0),rgba(217,183,107,.22),transparent 55%);opacity:0;transition:.3s}
+.track-card:hover::before,.track-card.active::before{opacity:1}
+.track-card.active{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold),0 20px 50px rgba(217,183,107,.22)}
+.track-icon{font-size:2.4rem;display:inline-block;animation:float 4s ease-in-out infinite}
+.track-card h3{margin:8px 0 4px}.track-card p{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.track-eval-link{font-size:.85rem;color:var(--goldtxt)}
+.panel{padding:26px}
+.tab-info{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+.tab-info h3{margin:0;font-size:1.5rem}
+.tag{display:inline-block;padding:3px 12px;border-radius:99px;background:rgba(13,77,184,.3);border:1px solid var(--line);color:var(--goldtxt);font-size:.78rem}
+.subjects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.subject-card{padding:18px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.03);border:1px solid rgba(217,183,107,.16);border-radius:18px;animation:pop .6s both;animation-delay:calc(var(--i)*.08s);transition:transform .25s,border-color .3s,box-shadow .3s}
+.subject-card:hover{border-color:var(--gold);box-shadow:0 12px 34px rgba(13,77,184,.4)}
+@keyframes pop{from{opacity:0;transform:scale(.85) translateY(20px)}}
+.meta{display:flex;justify-content:space-between;align-items:center}
+.icon{font-size:2rem;transition:.3s}.subject-card:hover .icon{transform:scale(1.25) rotate(-8deg)}
+.subject-card h4{margin:0 0 4px;font-size:1.1rem}.subject-card p{margin:0;color:var(--muted);font-size:.88rem}
+.subject-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+.eval-link,.quiz-btn{font:700 .82rem inherit;font-family:inherit;padding:8px 12px;border-radius:10px;border:1px solid var(--line);color:var(--white);background:rgba(255,255,255,.04);cursor:pointer;transition:.25s}
+.quiz-btn{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0b0d10;border:0}
+.eval-link:hover,.quiz-btn:hover{transform:translateY(-2px)}
+.evaluations{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.eval-card{padding:18px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(217,183,107,.16);transition:.3s}
+.eval-card:hover{transform:translateY(-5px);border-color:var(--gold)}
+.eval-card h4{margin:0 0 6px;color:var(--goldtxt)}.eval-card p{margin:0 0 10px;color:var(--muted);font-size:.88rem}
+.eval-card a{color:var(--gold);font-weight:700;font-size:.88rem}
+.colleges{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.college-card{padding:22px;animation:pop .6s both;animation-delay:calc(var(--i)*.1s)}
+.college-card .title{font-weight:800;font-size:1.15rem;color:var(--goldtxt);margin-bottom:8px}
+.college-card ul{margin:0;padding:0 18px 0 0;color:var(--muted)}.college-card li::marker{color:var(--gold)}
+.footer-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:26px 0;margin-top:30px;border-top:1px solid rgba(217,183,107,.2);color:var(--muted)}
+
+/* quiz */
+.quiz-overlay{position:fixed;inset:0;z-index:2500;display:grid;place-items:center;padding:16px;background:rgba(3,7,12,.8);backdrop-filter:blur(8px);opacity:0;visibility:hidden;transition:.35s}
+.quiz-overlay.open{opacity:1;visibility:visible}
+.quiz-dialog{width:min(720px,100%);max-height:92vh;overflow:auto;padding:24px;background:linear-gradient(180deg,#0f1c2d,#0a121c);border:1px solid var(--line);border-radius:24px;transform:scale(.9) translateY(30px);transition:.4s cubic-bezier(.2,1.3,.4,1)}
+.quiz-overlay.open .quiz-dialog{transform:none}
+.quiz-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:14px}
+.quiz-head h3{margin:0}.quiz-head p{margin:2px 0 0;color:var(--muted);font-size:.88rem}
+.quiz-close{border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--white);border-radius:12px;padding:8px 14px;cursor:pointer;font-family:inherit;height:fit-content}
+.quiz-progress{height:8px;border-radius:9px;background:rgba(255,255,255,.08);margin:10px 0 18px;overflow:hidden}
+.quiz-progress span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));transition:width .5s}
+.quiz-question{font-size:1.2rem;font-weight:700;margin-bottom:14px;animation:rise .4s both}
+.quiz-options{display:grid;gap:10px}
+.quiz-option{text-align:right;padding:13px 16px;border-radius:14px;border:1px solid rgba(217,183,107,.22);background:rgba(255,255,255,.04);color:var(--white);font:inherit;font-family:inherit;cursor:pointer;transition:.25s;animation:rise .4s both}
+.quiz-option:hover:not(:disabled){transform:translateX(-6px);border-color:var(--gold);background:rgba(217,183,107,.1)}
+.quiz-option.correct{background:rgba(54,201,143,.2);border-color:#36c98f;animation:okpop .5s}
+.quiz-option.wrong{background:rgba(255,100,100,.18);border-color:#ff7b7b;animation:shake .45s}
+@keyframes okpop{50%{transform:scale(1.04)}}
+@keyframes shake{25%{transform:translateX(9px)}75%{transform:translateX(-9px)}}
+.quiz-feedback{margin-top:14px;padding:14px;border-radius:14px;background:rgba(255,255,255,.05);animation:rise .4s both}
+.quiz-footer{display:flex;justify-content:space-between;align-items:center;margin-top:16px;gap:10px}
+.quiz-next{padding:11px 22px;border:0;border-radius:12px;font:700 1rem inherit;font-family:inherit;cursor:pointer;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0b0d10}
+.quiz-next:disabled{opacity:.4;cursor:not-allowed}
+.quiz-result{text-align:center;padding:10px}
+.quiz-score{font-size:3rem;font-weight:900;color:var(--goldtxt)}
+.cf{position:fixed;top:-30px;z-index:3500;font-size:1.6rem;pointer-events:none;animation:fall 2.8s linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(540deg)}}
+
+@media(max-width:900px){.hero-inner,.cards,.evaluations,.colleges,.subjects-grid{grid-template-columns:1fr 1fr}.hero-inner{grid-template-columns:1fr}.nav-links{display:none}}
+@media(max-width:560px){.cards,.evaluations,.colleges,.subjects-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important;transition-duration:.01s!important}}
+.tools{display:flex;gap:8px;align-items:center}
+.tool{font:700 .85rem inherit;font-family:inherit;color:var(--white);background:var(--glass);border:1px solid var(--line);border-radius:12px;padding:8px 12px;cursor:pointer;transition:.25s}
+.tool:hover{transform:translateY(-2px);border-color:var(--gold)}
+.tgl{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:.85rem;cursor:pointer;margin-top:6px}
+.prow{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid rgba(217,183,107,.15);flex-wrap:wrap}
+.prow>div:first-child{flex:1;min-width:150px}.pmeta{color:var(--muted);font-size:.82rem}
+.spark{display:flex;align-items:flex-end;gap:3px;height:36px;width:90px}.spark i{flex:1;background:linear-gradient(180deg,var(--gold2),var(--blue));border-radius:3px 3px 1px 1px}
+.tgl[hidden]{display:none}
+#tmr{font-weight:700}
+.footer-inner{flex-direction:column;align-items:center;text-align:center;gap:4px}
+.foot-note{font-size:.8rem;opacity:.75}
+body.light{--bg:#f1f5fc;--white:#14213a;--muted:#4a5b7a;--glass:rgba(255,255,255,.78);--line:rgba(150,110,25,.38);--goldtxt:#8a5f0a}
+body.light .topbar{background:rgba(255,255,255,.72)}
+body.light .entry{background:radial-gradient(circle at 50% 40%,#dbe7ff,#f1f5fc 70%)}
+body.light .marquee{background:rgba(255,255,255,.6)}
+body.light .quiz-dialog{background:linear-gradient(180deg,#fff,#eef3fc)}
+body.light .quiz-overlay{background:rgba(220,228,242,.75)}
+body.light .title .shim{background-image:linear-gradient(110deg,#14213a 20%,#b8892b 40%,#0d4db8 60%,#14213a 80%)}
+body.light .aurora i{opacity:.16}
+body.light .stat,body.light .subject-card,body.light .eval-card{background:rgba(255,255,255,.72)}
+@media(max-width:560px){.tool .tx{display:none}}
+</style>
+</head>
+<body class="lock">
+<canvas id="fx" width="1528" height="732"></canvas>
+<div class="aurora"><i></i><i></i><i></i></div>
+<div id="glow" style="transform: translate(1409.6px, 0.800003px);"></div><div id="bar"></div>
+
+<div class="entry" id="entryScreen" role="dialog" aria-label="واجهة الدخول">
+  <div class="entry-box">
+    <div class="entry-mark">🎓</div>
+    <h1>مرحبًا بك في مساري</h1>
+    <p>ابدأ رحلتك التعليمية، واستكشف المسارات والمواد الدراسية والكليات المناسبة لك.</p>
+    <button type="button" class="btn primary" id="entryStart">ابدأ</button>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="brand"><div class="brand-mark">🎓</div><span>مساري</span></div>
+    <nav class="nav-links"><a href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#home">الرئيسية</a><a href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#paths">المسارات</a><a href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#colleges">الكليات</a></nav>
+    <div class="tools"><button type="button" class="tool" id="bPlace">🎯<span class="tx"> حدد مسارك</span></button><button type="button" class="tool" id="bProg">📈<span class="tx"> تقدمي</span></button><button type="button" class="tool" id="bTheme" aria-label="تبديل المظهر">☀️</button></div>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="eyebrow">📘 مسار الطالب نحو المستقبل</div>
+        <h1 class="title"><span class="shim">مساري</span><span>للبكالوريا</span></h1>
+        <p class="lead">موقع يساعد الطالب على اختيار المسار المناسب، ومعرفة المواد الدراسية، وربط كل مادة بكتاب التقييمات الرسمي، ومعرفة الكليات المتاحة والتنسيقات المقاربة.</p>
+        <div class="actions"><a href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#paths" class="btn primary">اختيار المسار</a><a href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#paths" class="btn">استعرض المواد</a><button type="button" class="btn" id="bPlace2">🎯 اختبر ميولك</button></div>
+        <div class="stats">
+          <div class="stat"><strong data-n="4">0</strong><span>مسارات رئيسية</span></div>
+          <div class="stat"><strong data-n="24">0</strong><span>مادة تعليمية</span></div>
+          <div class="stat"><strong data-n="30">0</strong><span>اختبارات لكل مادة</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb">
+          <div class="ring r1"><b>🧬</b><b>💻</b><b>🎨</b><b>📊</b></div>
+          <div class="ring r2"><b>🧪</b><b>📐</b><b>🏺</b><b>💰</b></div>
+          <div class="ring r3"></div>
+          <div class="core">🎓</div>
+        </div>
+        <div class="chart"><span style="--i:0;height:70%"></span><span style="--i:1;height:88%"></span><span style="--i:2;height:95%"></span><span style="--i:3;height:68%"></span><span style="--i:4;height:80%"></span><span style="--i:5;height:60%"></span></div>
+      </div>
+    </div>
+    <div class="marquee"><div id="mq"><span>📚 اللغة العربية</span><span>🏺 التاريخ</span><span>🌍 اللغة الإنجليزية</span><span>📐 الرياضيات</span><span>⚛️ الفيزياء</span><span>🤖 البرمجة والذكاء الاصطناعي</span><span>🧪 الكيمياء</span><span>🇫🇷 اللغة الفرنسية</span><span>🇩🇪 اللغة الألمانية</span><span>🇮🇹 اللغة الإيطالية</span><span>🇨🇳 اللغة الصينية</span><span>🇪🇸 اللغة الإسبانية</span><span>🧠 علم النفس</span><span>📈 إدارة الأعمال</span><span>🧾 المحاسبة</span><span>📚 اللغة العربية</span><span>🏺 التاريخ</span><span>🌍 اللغة الإنجليزية</span><span>📐 الرياضيات</span><span>⚛️ الفيزياء</span><span>🤖 البرمجة والذكاء الاصطناعي</span><span>🧪 الكيمياء</span><span>🇫🇷 اللغة الفرنسية</span><span>🇩🇪 اللغة الألمانية</span><span>🇮🇹 اللغة الإيطالية</span><span>🇨🇳 اللغة الصينية</span><span>🇪🇸 اللغة الإسبانية</span><span>🧠 علم النفس</span><span>📈 إدارة الأعمال</span><span>🧾 المحاسبة</span></div></div>
+  </section>
+
+  <section id="paths" class="section">
+    <div class="container">
+      <div class="head rv"><h2>المسارات</h2><p>اختر المسار المناسب لك، وستظهر لك المواد المرتبطة به وكلياته المتاحة.</p></div>
+      <div id="trackCards" class="cards"><div class="track-card glass rv active" data-key="medicine" style="transition-delay:0s" tabindex="0"><div class="track-icon">🧬</div><h3>الطب وعلوم الحياة</h3><p>مسار يركز على العلوم الأساسية واللغات والمواد المؤهلة لدراسة الطب وعلوم الحياة.</p><a class="track-eval-link" href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#subjectsGrid" onclick="event.preventDefault();event.stopPropagation();renderTrack('medicine');document.getElementById('subjectsGrid').scrollIntoView({behavior:'smooth',block:'start'})">📚 عرض مواد المسار</a></div><div class="track-card glass rv " data-key="engineering" style="transition-delay:0.1s" tabindex="0"><div class="track-icon">💻</div><h3>الهندسة وعلوم الحاسب</h3><p>مسار يجمع بين التفكير الرياضي والعلوم والبرمجة والذكاء الاصطناعي.</p><a class="track-eval-link" href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#subjectsGrid" onclick="event.preventDefault();event.stopPropagation();renderTrack('engineering');document.getElementById('subjectsGrid').scrollIntoView({behavior:'smooth',block:'start'})">📚 عرض مواد المسار</a></div><div class="track-card glass rv " data-key="arts" style="transition-delay:0.2s" tabindex="0"><div class="track-icon">🎨</div><h3>الآداب والفنون</h3><p>مسار يهتم باللغة العربية والتاريخ واللغات الأجنبية وفهم السلوك الإنساني.</p><a class="track-eval-link" href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#subjectsGrid" onclick="event.preventDefault();event.stopPropagation();renderTrack('arts');document.getElementById('subjectsGrid').scrollIntoView({behavior:'smooth',block:'start'})">📚 عرض مواد المسار</a></div><div class="track-card glass rv " data-key="business" style="transition-delay:0.30000000000000004s" tabindex="0"><div class="track-icon">📊</div><h3>مسار الأعمال</h3><p>مسار يهتم باللغة والتاريخ وإدارة الأعمال والمحاسبة وفهم عالم الشركات والاقتصاد.</p><a class="track-eval-link" href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#subjectsGrid" onclick="event.preventDefault();event.stopPropagation();renderTrack('business');document.getElementById('subjectsGrid').scrollIntoView({behavior:'smooth',block:'start'})">📚 عرض مواد المسار</a></div></div>
+      <div class="panel glass rv">
+        <div class="tab-info"><h3 id="trackTitle">الطب وعلوم الحياة</h3><span class="tag" id="trackTag">العلوم الطبية</span></div>
+        <div id="subjectsGrid" class="subjects-grid"><div class="subject-card" style="--i:0"><div class="meta"><div class="icon">📚</div><span class="tag">مادة</span></div><div><h4>اللغة العربية</h4><p>قراءة النصوص والنحو والبلاغة والتعبير</p></div><div class="subject-actions"><a href="https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/Arabic/" class="eval-link" target="_blank" rel="noopener noreferrer">📘 الكتب والتقييمات</a><button type="button" class="quiz-btn" data-s="اللغة العربية">📝 اختبر نفسك</button></div></div><div class="subject-card" style="--i:1"><div class="meta"><div class="icon">🏺</div><span class="tag">مادة</span></div><div><h4>التاريخ</h4><p>الأحداث التاريخية والحضارات وتحليل المصادر</p></div><div class="subject-actions"><a href="https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/EgyptianHistory/" class="eval-link" target="_blank" rel="noopener noreferrer">📘 الكتب والتقييمات</a><button type="button" class="quiz-btn" data-s="التاريخ">📝 اختبر نفسك</button></div></div><div class="subject-card" style="--i:2"><div class="meta"><div class="icon">🌍</div><span class="tag">مادة</span></div><div><h4>اللغة الإنجليزية</h4><p>القواعد والمفردات والقراءة والفهم</p></div><div class="subject-actions"><a href="https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/FirstForeignLanguage/english/" class="eval-link" target="_blank" rel="noopener noreferrer">📘 الكتب والتقييمات</a><button type="button" class="quiz-btn" data-s="اللغة الإنجليزية">📝 اختبر نفسك</button></div></div><div class="subject-card" style="--i:3"><div class="meta"><div class="icon">📐</div><span class="tag">مادة</span></div><div><h4>الرياضيات</h4><p>التفاضل والتكامل والإحصاء والاحتمالات</p></div><div class="subject-actions"><a href="https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Medicine-LifeSciences/Mathematics/" class="eval-link" target="_blank" rel="noopener noreferrer">📘 الكتب والتقييمات</a><button type="button" class="quiz-btn" data-s="الرياضيات">📝 اختبر نفسك</button></div></div><div class="subject-card" style="--i:4"><div class="meta"><div class="icon">⚛️</div><span class="tag">مادة</span></div><div><h4>الفيزياء</h4><p>الحركة والقوى والكهرباء والطاقة</p></div><div class="subject-actions"><a href="https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Medicine-LifeSciences/Physics/" class="eval-link" target="_blank" rel="noopener noreferrer">📘 الكتب والتقييمات</a><button type="button" class="quiz-btn" data-s="الفيزياء">📝 اختبر نفسك</button></div></div></div>
+        <div class="evaluations">
+          <div class="eval-card"><h4>كتب التقييمات</h4><p>روابط مباشرة إلى كتب التقييمات الخاصة بكل مادة من وزارة التربية والتعليم.</p><a href="https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/" target="_blank" rel="noopener noreferrer">عرض الكتب الرسمية</a></div>
+          <div class="eval-card"><h4>منصة QUREO</h4><p>افتح منصة QUREO وسجّل الدخول للوصول إلى المحتوى التعليمي.</p><a href="https://me-portal.qureo.education/login" target="_blank" rel="noopener noreferrer">افتح منصة QUREO</a></div>
+          <div class="eval-card"><h4>الثقافة المالية</h4><p>افتح لوحة الثقافة المالية والموارد التعليمية الخاصة بها.</p><a href="https://egy.app.spx-learning-square.com/dashboard" target="_blank" rel="noopener noreferrer">افتح الثقافة المالية</a></div>
+          <div class="eval-card"><h4>الاستراتيجيات</h4><p>مراجعات قصيرة، تسهيل للمادة، وأفكار لاستراتيجية الدراسة المثلى.</p><a href="file:///C:/Users/dell/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/7334F9F824BC1F37ADBE33739DD6545066DCF887/transfers/2026-44/index.html#">شاهد الخطة</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="colleges" class="section">
+    <div class="container">
+      <div class="head rv"><h2>الكليات والتنسيقات المقاربة</h2><p>معلومات مختصرة عن الكليات الأقرب لكل مسار.</p></div>
+      <div id="collegesGrid" class="colleges"><div class="college-card glass" style="--i:0"><div class="title">الكليات الصحية</div><ul><li>الطب البشري</li><li>طب الأسنان</li><li>الصيدلة</li><li>التمريض</li></ul></div><div class="college-card glass" style="--i:1"><div class="title">الكليات العلمية</div><ul><li>العلوم</li><li>التكنولوجيا الحيوية</li><li>العلوم الطبية</li></ul></div></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container footer-inner"><div>جميع الحقوق محفوظة © 2025/2026 — مساري للبكالوريا</div><div>إعداد وتقديم: ندى محمد</div><div class="foot-note">يُمنع نسخ المحتوى أو إعادة نشره دون إذن كتابي من صاحبة العمل.</div></div></footer>
+
+<div class="quiz-overlay" id="quizOverlay" role="dialog" aria-modal="true">
+  <div class="quiz-dialog">
+    <div class="quiz-head"><div><h3 id="quizTitle"></h3><p id="quizSubtitle"></p><label class="tgl" id="tgWrap"><input type="checkbox" id="tmToggle"> ⏱ مؤقت لكل سؤال (45 ثانية)</label></div><button class="quiz-close" id="quizClose" type="button" aria-label="إغلاق">✕</button></div>
+    <div id="quizBody"></div>
+  </div>
+</div>
+
+<script>
+/* ===== المسارات والمواد ===== */
+const tracks=[
+{key:"medicine",name:"الطب وعلوم الحياة",tag:"العلوم الطبية",icon:"🧬",description:"مسار يركز على العلوم الأساسية واللغات والمواد المؤهلة لدراسة الطب وعلوم الحياة.",
+ subjects:[["اللغة العربية","📚","قراءة النصوص والنحو والبلاغة والتعبير"],["التاريخ","🏺","الأحداث التاريخية والحضارات وتحليل المصادر"],["اللغة الإنجليزية","🌍","القواعد والمفردات والقراءة والفهم"],["الرياضيات","📐","التفاضل والتكامل والإحصاء والاحتمالات"],["الفيزياء","⚛️","الحركة والقوى والكهرباء والطاقة"]],
+ colleges:[["الكليات الصحية",["الطب البشري","طب الأسنان","الصيدلة","التمريض"]],["الكليات العلمية",["العلوم","التكنولوجيا الحيوية","العلوم الطبية"]]]},
+{key:"engineering",name:"الهندسة وعلوم الحاسب",tag:"التكنولوجيا والابتكار",icon:"💻",description:"مسار يجمع بين التفكير الرياضي والعلوم والبرمجة والذكاء الاصطناعي.",
+ subjects:[["اللغة العربية","📚","قراءة النصوص والنحو والبلاغة والتعبير"],["التاريخ","🏺","الأحداث التاريخية والحضارات وتحليل المصادر"],["اللغة الإنجليزية","🌍","القواعد والمفردات والقراءة والفهم"],["البرمجة والذكاء الاصطناعي","🤖","أساسيات البرمجة والخوارزميات ومفاهيم الذكاء الاصطناعي"],["الكيمياء","🧪","الذرة والروابط والتفاعلات والحسابات الكيميائية"]],
+ colleges:[["كلية الهندسة",["الهندسة الكهربائية","الهندسة الميكانيكية","هندسة الحاسبات"]],["كليات الحاسب والتكنولوجيا",["علوم الحاسب","الذكاء الاصطناعي","تكنولوجيا المعلومات"]]]},
+{key:"arts",name:"الآداب والفنون",tag:"الإبداع والتواصل",icon:"🎨",description:"مسار يهتم باللغة العربية والتاريخ واللغات الأجنبية وفهم السلوك الإنساني.",
+ subjects:[["اللغة العربية","📚","النحو والبلاغة والأدب والقراءة والتعبير"],["التاريخ","🏺","الأحداث التاريخية والحضارات وتحليل المصادر"],["اللغة الإنجليزية","🌍","القواعد والمفردات والقراءة والفهم"],["اللغة الفرنسية","🇫🇷","المفردات والقواعد والتواصل باللغة الفرنسية"],["اللغة الألمانية","🇩🇪","المفردات والقواعد والتواصل باللغة الألمانية"],["اللغة الإيطالية","🇮🇹","المفردات والقواعد والتواصل باللغة الإيطالية"],["اللغة الصينية","🇨🇳","مفردات صينية أساسية ومعانيها وطريقة استخدامها"],["اللغة الإسبانية","🇪🇸","المفردات والقواعد والتواصل باللغة الإسبانية"],["علم النفس","🧠","السلوك والدوافع والذاكرة والانتباه والتعلم"]],
+ colleges:[["كلية الآداب واللغات",["اللغة العربية","اللغات والترجمة","التاريخ"]],["كلية الإعلام والفنون",["الإعلام","الفنون","التصميم"]],["كليات العلوم الإنسانية",["علم النفس","الاجتماع","الآثار"]]]},
+{key:"business",name:"مسار الأعمال",tag:"الإدارة والمال",icon:"📊",description:"مسار يهتم باللغة والتاريخ وإدارة الأعمال والمحاسبة وفهم عالم الشركات والاقتصاد.",
+ subjects:[["اللغة العربية","📚","النحو والبلاغة والقراءة والتعبير"],["التاريخ","🏺","الأحداث التاريخية والحضارات وتحليل المصادر"],["اللغة الإنجليزية","🌍","القواعد والمفردات والقراءة والفهم"],["إدارة الأعمال","📈","التخطيط والتنظيم والتسويق والقيادة واتخاذ القرار"],["المحاسبة","🧾","الأصول والخصوم والإيرادات والمصروفات والقيود المحاسبية"]],
+ colleges:[["كليات التجارة والأعمال",["إدارة الأعمال","المحاسبة","التسويق"]],["كليات الاقتصاد",["الاقتصاد والعلوم السياسية","التمويل والاستثمار"]],["كليات الإدارة",["نظم المعلومات الإدارية","الموارد البشرية"]]]}
+];
+
+/* ===== مولّد الأسئلة: 30 سؤال لكل مادة ===== */
+const R=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,P=a=>a[R(0,a.length-1)];
+const sh=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=R(0,i);[a[i],a[j]]=[a[j],a[i]]}return a};
+function mc(q,c,w,e){c=String(c);let ws=[...new Set(w.map(String))].filter(x=>x!==c);if(ws.length<3&&/^-?\d+(\.\d+)?$/.test(c))for(const d of[1,-1,2,-2,3,5,10,-5])if(ws.length<3&&!ws.includes(String(+c+d))&&+c+d>=0)ws.push(String(+c+d));ws=ws.slice(0,3);const o=sh([c,...ws]);return{q,o,a:o.indexOf(c),e}}
+const pairs=s=>s.trim().split("\n").map(l=>l.split("|"));
+const facts=p=>p.flatMap(([t,d])=>{const T=p.map(x=>x[0]).filter(x=>x!==t),D=p.map(x=>x[1]).filter(x=>x!==d),e=`«${t}»: ${d}.`;
+  return[mc(`ما المقصود بـ «${t}»؟`,d,sh(D),e),mc(`أي مصطلح يعبّر عن: ${d}؟`,t,sh(T),e)]});
+const vocab=(p,l)=>p.flatMap(([f,a])=>{const F=p.map(x=>x[0]).filter(x=>x!==f),A=p.map(x=>x[1]).filter(x=>x!==a),e=`${f} = ${a}`;
+  return[mc(`ما معنى كلمة «${f}»؟`,a,sh(A),e),mc(`كيف تقول «${a}» بال${l}؟`,f,sh(F),e)]});
+const build=(gens,fx=[])=>{const out=[...fx],seen=new Set(out.map(x=>x.q));let n=0;
+  while(out.length<30&&n++<800){const x=P(gens)();if(!seen.has(x.q)){seen.add(x.q);out.push(x)}}return sh(out).slice(0,30)};
+
+const f=n=>n<2?1:n*f(n-1),sup=["","","²","³","⁴"],sb={2:"₂",3:"₃",5:"₅"};
+const tm=(c,p)=>p==0?`${c}`:p==1?`${c}س`:`${c}س${sup[p]}`;
+const H=s=>s.trim().split("\n").map(l=>{const[q,c,a,b,d,e]=l.split("|");return mc(q,c,[a,b,d],e||`الإجابة الصحيحة: ${c}`)});
+const MOL=[["H₂O",18],["CO₂",44],["NaOH",40],["CaCO₃",100],["H₂SO₄",98],["CH₄",16],["NH₃",17]],HX="0123456789ABCDEF";
+const GEN={
+"الرياضيات":()=>build([
+ ()=>{const a=R(2,7),n=R(2,4);return mc(`مشتقة الدالة د(س) = ${tm(a,n)} هي:`,tm(a*n,n-1),[tm(a,n-1),tm(a*n,n),tm(a*(n-1),n-1),tm(a*n+1,n-1)],`نضرب المعامل في الأس وننقص الأس 1: د′(س) = ${tm(a*n,n-1)}.`)},
+ ()=>{const k=R(1,9),c=R(1,6);return mc(`إذا كانت د(س) = س² + ${k}س فإن د′(${c}) تساوي:`,2*c+k,[c*c+k,2*c,c+k,2*c+k+1],`د′(س) = 2س + ${k} ثم نعوض س = ${c}.`)},
+ ()=>{const a=R(1,5),r=R(2,3),n=R(3,6);return mc(`متتابعة هندسية حدها الأول ${a} وأساسها ${r}، فحدها ${n} يساوي:`,a*r**(n-1),[a*r**n,a*r*(n-1),a+r*(n-1),a*r**(n-2)],`ح${n} = أ × ر^(ن−1) = ${a*r**(n-1)}.`)},
+ ()=>{const n=R(5,8),r=R(2,3);return mc(`قيمة ${n}ل${r} (عدد التباديل) تساوي:`,f(n)/f(n-r),[f(n)/f(n-r)/f(r),n*r,n**r,f(n)/f(r)],`ن ل ر = ن! ÷ (ن−ر)!`)},
+ ()=>{const n=R(5,9),r=R(2,3);return mc(`قيمة ${n}ق${r} (عدد التوافيق) تساوي:`,f(n)/f(n-r)/f(r),[f(n)/f(n-r),n*r,n+r,f(n)/f(n-r)/f(r)+n],`ن ق ر = ن! ÷ (ر! (ن−ر)!)`)},
+ ()=>{const T=P([[3,4,5],[5,12,13],[6,8,10]]),x=R(0,5),y=R(0,5);return mc(`المسافة بين النقطتين (${x}, ${y}) و (${x+T[0]}, ${y+T[1]}) تساوي:`,T[2],[T[0]+T[1],T[2]+1,T[2]-1,T[2]*2],`المسافة = √(Δس² + Δص²) = ${T[2]}.`)},
+ ()=>{const m=R(2,5),d=R(1,4),x=R(0,4),y=R(0,4);return mc(`ميل المستقيم المار بالنقطتين (${x}, ${y}) و (${x+d}, ${y+m*d}) يساوي:`,m,[`1/${m}`,-m,m+1,m*d],`الميل = Δص ÷ Δس = ${m*d} ÷ ${d} = ${m}.`)},
+ ()=>{const b=P([2,3,5]),k=R(2,5);return mc(`قيمة لو${sb[b]} ${b**k} تساوي:`,k,[k+1,k-1,b*k,b],`لأن ${b}^${k} = ${b**k}.`)}
+],H(`sin²θ + cos²θ تساوي:|1|0|2|جتا 2θ|المتطابقة المثلثية الأساسية.
+جا 30° + جتا 60° تساوي:|1|1/2|√3/2|0|كل منهما يساوي 1/2.
+ظا 45° تساوي:|1|0|√3|1/2|لأن جا 45° = جتا 45°.
+مشتقة الدالة الثابتة تساوي:|صفر|1|الثابت نفسه|س|التغير في الثابت معدوم.
+عدد طرق ترتيب 4 كتب مختلفة على رف:|24|16|12|8|4! = 24.`)),
+"الفيزياء":()=>build([
+ ()=>{const u=R(0,10),a=R(2,5),t=R(2,6);return mc(`جسم سرعته الابتدائية ${u} م/ث وعجلته ${a} م/ث²، سرعته بعد ${t} ث (م/ث):`,u+a*t,[u+a,u*t+a,a*t,u+a*t+t],`ع = ع₀ + ع×ز = ${u+a*t}.`)},
+ ()=>{const a=P([2,4,6]),u=P([0,2,4]),t=R(2,5);return mc(`جسم يبدأ بسرعة ${u} م/ث وعجلته ${a} م/ث²، إزاحته بعد ${t} ث (م):`,u*t+a*t*t/2,[u*t+a*t*t,u*t+a*t,a*t*t/2+t,u+a*t],`ف = ع₀ز + ½ ع ز² = ${u*t+a*t*t/2}.`)},
+ ()=>{const i=R(2,6),r=R(5,20);return mc(`مقاومة ${r} أوم يمر بها تيار ${i} أمبير، فرق الجهد بين طرفيها (فولت):`,i*r,[i+r,r/i,i*r+i,i*r*2],`ج = ت × م = ${i*r}.`)},
+ ()=>{const a=R(2,9),b=R(2,9),c=R(2,9);return mc(`ثلاث مقاومات ${a} و${b} و${c} أوم على التوالي، المقاومة الكلية (أوم):`,a+b+c,[a*b*c,a+b,(a+b+c)/3,a+b+c+1],"على التوالي: م = م₁ + م₂ + م₃.")},
+ ()=>{const p=P([[6,3,2],[12,4,3],[10,15,6],[20,5,4]]);return mc(`مقاومتان ${p[0]} و${p[1]} أوم على التوازي، المقاومة المكافئة (أوم):`,p[2],[p[0]+p[1],p[2]+1,p[0]-p[1],p[2]*2],`م = (م₁م₂)÷(م₁+م₂) = ${p[2]}.`)},
+ ()=>{const v=P([6,12,24,110,220]),i=R(1,5);return mc(`القدرة الكهربائية لجهاز جهده ${v} فولت وتياره ${i} أمبير (وات):`,v*i,[v+i,v/i,v*i*2,v*i+v],`ق = ج × ت = ${v*i}.`)},
+ ()=>{const m=R(2,10),v=R(2,12);return mc(`كمية حركة جسم كتلته ${m} كجم وسرعته ${v} م/ث (كجم.م/ث):`,m*v,[m+v,m*v*v,m*v/2,m*v+m],`ك = كتلة × سرعة = ${m*v}.`)},
+ ()=>{const m=R(1,5),t=R(5,20);return mc(`كمية الحرارة اللازمة لرفع ${m} كجم ماء ${t}°س (الحرارة النوعية 4200 جول/كجم.°س):`,`${m*t*4200} جول`,[`${m*t*420} جول`,`${m*4200} جول`,`${t*4200} جول`,`${(m+t)*4200} جول`,`${m*t*4200*2} جول`],`كح = كتلة × ح.ن × Δد = ${m*t*4200} جول.`)},
+ ()=>{const fr=R(2,50),l=R(2,10);return mc(`موجة ترددها ${fr} هرتز وطولها الموجي ${l} م، سرعتها (م/ث):`,fr*l,[fr+l,fr/l,fr*l+fr,fr*l*2],`ع = ت × λ = ${fr*l}.`)}
+],H(`يوصل الأمبير على التوالي مع الدائرة لأنه يقيس:|شدة التيار|فرق الجهد|المقاومة|القدرة|الأميتر يقيس التيار ويوصل توالي.
+في التوصيل على التوالي يكون:|التيار ثابتًا في جميع المقاومات|فرق الجهد ثابتًا في جميعها|المقاومة الكلية أقل من أصغرها|التيار يتجزأ بينها|التيار واحد في المسار الواحد.
+ينص القانون الثالث لنيوتن على أن:|لكل فعل رد فعل مساوٍ له في المقدار ومضاد في الاتجاه|القوة = الكتلة × العجلة|الجسم الساكن يبقى ساكنًا دائمًا|الطاقة لا تفنى ولا تستحدث|هذا هو نص القانون الثالث.
+وحدة قياس المقاومة الكهربائية:|الأوم|الفولت|الأمبير|الواط|المقاومة تقاس بالأوم.`)),
+"الكيمياء":()=>build([
+ ()=>{const m=P(MOL);return mc(`الكتلة المولية لـ ${m[0]} (جم/مول) علمًا بأن H=1, C=12, N=14, O=16, Na=23, S=32, Ca=40:`,m[1],[m[1]+2,m[1]-2,m[1]*2,m[1]+10],`نجمع الكتل الذرية لجميع الذرات في الصيغة = ${m[1]}.`)},
+ ()=>{const m=P(MOL),k=R(1,5);return mc(`عدد مولات ${m[1]*k} جم من ${m[0]} (الكتلة المولية ${m[1]}):`,k,[k+1,k*2,k+2,k+3,k+4],`عدد المولات = الكتلة ÷ الكتلة المولية = ${k}.`)},
+ ()=>{const V=R(1,5),k=R(1,4);return mc(`محلول يحتوي ${V*k} مول في ${V} لتر، تركيزه (مول/لتر):`,k,[k+1,V*k,V,k*2,k+2,k+3,k+4],`التركيز = عدد المولات ÷ الحجم = ${k}.`)},
+ ()=>{const k=R(1,6);return mc(`محلول تركيز أيون الهيدروجين فيه 10^(−${k}) مول/لتر، فإن pH له:`,k,[14-k,k+1,k-1,-k],`pH = −لو[H⁺] = ${k}.`)},
+ ()=>{const k=R(1,6);return mc(`محلول قيمة pH له ${k}، فإن pOH له:`,14-k,[k,14+k,7-k,k+7,k+1,k+2],`pH + pOH = 14.`)}
+],facts(pairs(`الأكسدة|فقد الإلكترونات
+الاختزال|اكتساب الإلكترونات
+الأنود|القطب الذي تحدث عنده الأكسدة
+الكاثود|القطب الذي يحدث عنده الاختزال
+المول|كمية المادة التي تحتوي 6.02×10²³ جسيمًا
+قاعدة لوشاتيليه|الحالة المتزنة تتجه لتقليل تأثير أي تغير يقع عليها
+الألكينات|هيدروكربونات غير مشبعة تحتوي رابطة ثنائية`))),
+"علوم الحاسب":()=>build([
+ ()=>{const h=R(1,9),l=R(0,15),v=16*h+l;return mc(`القيمة العشرية للعدد السداسي عشر ${HX[h]}${HX[l]} هي:`,v,[v+1,v-1,h*10+l,v+16],`${h}×16 + ${l} = ${v}.`)},
+ ()=>{const n=R(3,15),b=n.toString(2).padStart(4,"0");return mc(`القيمة العشرية للعدد الثنائي ${b} هي:`,n,[n+1,n-1,n+2],`نجمع الأوزان 8-4-2-1 فنحصل على ${n}.`)},
+ ()=>{const n=R(3,30);return mc(`ناتج الأمر print(sum(range(1, ${n}))) في بايثون:`,n*(n-1)/2,[n*(n+1)/2,n*n,n,n*(n-1)/2+1],`range(1,${n}) تنتهي عند ${n-1}، فمجموعها ${n*(n-1)/2}.`)},
+ ()=>{const a=R(10,50),b=R(3,9);return mc(`ناتج ${a} % ${b} في بايثون:`,a%b,[Math.floor(a/b),a%b+1,b,a-b],"عامل % يعطي باقي القسمة.")},
+ ()=>{const a=R(10,50),b=R(3,9);return mc(`ناتج ${a} // ${b} في بايثون:`,Math.floor(a/b),[a%b,Math.floor(a/b)+1,(a/b).toFixed(1),a-b],"عامل // يعطي خارج القسمة الصحيح.")},
+ ()=>{const a=R(2,6),b=R(2,9);return mc(`ناتج الكود: t=0؛ for i in range(${a}): t += ${b}؛ print(t)`,a*b,[a+b,a*b+b,b**a,a*b-b],`تتكرر الحلقة ${a} مرات وكل مرة نضيف ${b}.`)}
+],facts(pairs(`الخوارزمية|خطوات منطقية متسلسلة لحل مشكلة
+المتغير|اسم يخزن قيمة قابلة للتغيير
+الحلقة التكرارية|تنفيذ مجموعة أوامر عدة مرات
+الجملة الشرطية|أمر يختار مسارًا بناءً على صحة عبارة
+الدالة|كتلة أوامر تؤدي مهمة محددة ويمكن استدعاؤها
+القائمة|هيكل يخزن مجموعة عناصر مرتبة
+المصادقة الثنائية|طبقة حماية إضافية تطلب دليلًا ثانيًا للهوية`))),
+"اللغة الإنجليزية":()=>build([],H(`If I ____ rich, I would travel the world.|were|am|will be|would be|Second conditional: if + past simple, would + verb.
+If it rains tomorrow, we ____ at home.|will stay|would stay|stayed|stay would|First conditional: if + present, will + verb.
+If she had studied harder, she ____ the exam.|would have passed|would pass|will pass|had passed|Third conditional: had + V3, would have + V3.
+Water ____ if you heat it to 100°C.|boils|will boiled|would boil|boiling|Zero conditional for general facts.
+I wish I ____ more free time.|had|have|will have|would had|Wish + past simple.
+The Pyramids ____ by the ancient Egyptians.|were built|built|are build|have building|Passive: was/were + V3.
+English ____ all over the world.|is spoken|speaks|is speaking|has speak|Present passive: is/are + V3.
+The report ____ by the manager tomorrow.|will be written|will write|is writing|wrote|Future passive: will be + V3.
+A new bridge ____ in our city last year.|was built|built|is built|has build|Past passive: was + V3.
+She said, "I am tired." → She said that she ____ tired.|was|is|were|has been|Backshift: am → was.
+He said, "I will call you." → He said that he ____ call me.|would|will|shall|can|Backshift: will → would.
+"I have finished my work," she said. → She said she ____ her work.|had finished|has finished|have finished|finished|Present perfect → past perfect.
+The man ____ lives next door is a doctor.|who|which|whose|whom|who for people as subject.
+This is the book ____ I told you about.|which|who|whose|where|which for things.
+The girl ____ bag was stolen called the police.|whose|who|which|whom|whose shows possession.
+That is the city ____ I was born.|where|which|who|whose|where for places.
+I ____ in Cairo since 2020.|have lived|lived|live|did live|since → present perfect.
+She has just ____ her lunch.|eaten|ate|eat|eating|has + V3.
+How long ____ you known him?|have|did|do|are|Present perfect question.
+We ____ to Alexandria last summer.|went|have gone|have been going|go|last summer → past simple.
+You ____ wear a seat belt. It is the law.|must|might|needn't|could|must for obligation.
+You ____ come with me if you don't want to.|don't have to|mustn't|can't|shouldn't|No obligation.
+She ____ be at home; her lights are on.|must|should|needn't|ought|must for logical deduction.
+This book is ____ than that one.|more interesting|interestinger|most interesting|the more interesting|Long adjective: more + adj + than.
+He is the ____ student in the class.|tallest|taller|more tall|most tallest|Superlative: the + adj + est.
+I enjoy ____ football.|playing|to play|play|played|enjoy + V-ing.
+She decided ____ abroad.|to study|studying|study|studied|decide + to-infinitive.
+Neither of the boys ____ here.|is|are|were|have been|Neither of + singular verb.
+He is good ____ mathematics.|at|in|on|for|good at.
+By the time we arrived, the film ____.|had started|started|has started|was starting|Past perfect for earlier action.`)),
+"اللغة الفرنسية":()=>build([],[...H(`Je ____ étudiant.|suis|es|est|sommes
+Tu ____ un stylo.|as|a|ai|avons
+Nous ____ à l'école.|allons|vais|vont|allez
+Elle ____ française.|est|es|sont|suis
+____ cahier est bleu.|Le|La|Les|Une
+____ ville est grande.|La|Le|Les|Un
+Ils ____ du pain.|mangent|mange|mangez|mangeons
+Vous ____ français.|parlez|parle|parlons|parlent
+Que signifie « Comment tu t'appelles ? »|ما اسمك؟|كم عمرك؟|أين تسكن؟|كيف حالك؟
+Que signifie « Quelle heure est-il ? »|كم الساعة؟|ما اليوم؟|أين المدرسة؟|من أنت؟
+Le pluriel de « un élève » est :|des élèves|les élève|un élèves|des élèvent
+Nous ____ deux livres.|avons|ont|avez|as`),...vocab(pairs(`cahier|دفتر
+stylo|قلم
+élève|تلميذ
+professeur|معلم
+bibliothèque|مكتبة
+famille|عائلة
+ville|مدينة
+travail|عمل
+voyage|سفر`),"فرنسية")]),
+"اللغة الألمانية":()=>build([],[...H(`Ich ____ Student.|bin|bist|ist|sind
+Du ____ Wasser.|trinkst|trinke|trinkt|trinken
+Er ____ ein Buch.|hat|habe|hast|haben
+Wir ____ nach Hause.|gehen|geht|gehe|gehst
+____ Hund ist groß.|Der|Die|Das|Den
+____ Frau ist nett.|Die|Der|Das|Dem
+____ Kind spielt.|Das|Der|Die|Den
+Ihr ____ Deutsch.|sprecht|sprechen|spreche|sprichst
+Was bedeutet „Wie heißt du?“|ما اسمك؟|كم عمرك؟|أين تسكن؟|كيف حالك؟
+Was bedeutet „Wie spät ist es?“|كم الساعة؟|ما اليوم؟|أين المدرسة؟|من أنت؟
+Ich komme ____ Ägypten.|aus|in|nach|bei
+Sie (جمع) ____ Fußball.|spielen|spielt|spiele|spielst`),...vocab(pairs(`Heft|دفتر
+Stift|قلم
+Schüler|تلميذ
+Lehrer|معلم
+Bibliothek|مكتبة
+Familie|عائلة
+Stadt|مدينة
+Arbeit|عمل
+Reise|سفر`),"ألمانية")]),
+"اللغة الإيطالية":()=>build([],[...H(`Io ____ italiano.|sono|sei|è|siamo|مع io نستخدم sono.
+Tu ____ una penna.|hai|ho|ha|hanno|مع tu نستخدم hai.
+Noi ____ a scuola.|andiamo|vado|va|andate|مع noi نستخدم andiamo.
+Lei ____ una studentessa.|è|sono|sei|siamo|الفعل essere مع lei هو è.
+____ libro è nuovo.|Il|La|Gli|Le|Il أداة تعريف للمذكر المفرد.
+Che significa «Ciao»?|مرحبًا أو وداعًا|شكرًا|من فضلك|إلى اللقاء فقط|Ciao تستخدم للتحية والوداع غير الرسمي.
+Che significa «Grazie»?|شكرًا|صباح الخير|عفوًا|من فضلك|Grazie تعني شكرًا.
+Il plurale di «libro» è:|libri|libro|libra|libre|غالبًا تتحول o إلى i في جمع الأسماء المذكرة.
+Buongiorno تعني:|صباح الخير|مساء الخير|تصبح على خير|شكرًا|Buongiorno تحية تستخدم صباحًا.
+Per favore تعني:|من فضلك|شكرًا|عفوًا|وداعًا|Per favore تعني من فضلك.
+Come stai? تعني:|كيف حالك؟|ما اسمك؟|أين تسكن؟|كم عمرك؟|Come stai? للسؤال عن الحال.
+La lingua italiana تُستخدم في:|إيطاليا|ألمانيا|الصين|إسبانيا|الإيطالية هي لغة إيطاليا.`),...vocab(pairs(`casa|منزل
+libro|كتاب
+scuola|مدرسة
+acqua|ماء
+amico|صديق
+famiglia|عائلة
+città|مدينة
+giorno|يوم
+lavoro|عمل
+`),"إيطالية")]),
+"اللغة الإسبانية":()=>build([],[...H(`Yo ____ estudiante.|soy|eres|es|somos|مع yo نستخدم soy.
+Tú ____ un libro.|tienes|tengo|tiene|tenemos|مع tú نستخدم tienes.
+Nosotros ____ español.|hablamos|hablo|habla|habláis|مع nosotros نستخدم hablamos.
+Ella ____ en Madrid.|vive|vivo|viven|vivimos|مع ella نستخدم vive.
+____ casa es grande.|La|El|Los|Un|La أداة تعريف للمؤنث المفرد.
+¿Qué significa «Hola»?|مرحبًا|شكرًا|وداعًا|من فضلك|Hola تعني مرحبًا.
+¿Qué significa «Gracias»?|شكرًا|صباح الخير|كيف حالك|إلى اللقاء|Gracias تعني شكرًا.
+El plural de «libro» es:|libros|libroes|libra|libres|نضيف s إلى الاسم المنتهي بحرف متحرك.
+Buenos días تعني:|صباح الخير|مساء الخير|تصبح على خير|شكرًا|Buenos días تحية الصباح.
+Por favor تعني:|من فضلك|شكرًا|عفوًا|وداعًا|Por favor تعني من فضلك.
+¿Cómo estás? تعني:|كيف حالك؟|ما اسمك؟|أين تسكن؟|كم عمرك؟|السؤال عن الحال.
+La lengua española تُستخدم في:|إسبانيا|الصين|ألمانيا|إيطاليا|الإسبانية لغة إسبانيا ودول عديدة.`),...vocab(pairs(`casa|منزل
+libro|كتاب
+escuela|مدرسة
+agua|ماء
+amigo|صديق
+familia|عائلة
+ciudad|مدينة
+día|يوم
+trabajo|عمل
+`),"إسبانية")]),
+"اللغة الصينية":()=>build([],[...H(`你好 (nǐ hǎo) تعني:|مرحبًا|شكرًا|وداعًا|من فضلك|你好 تحية صينية معناها مرحبًا.
+谢谢 (xièxie) تعني:|شكرًا|مرحبًا|صباح الخير|آسف|谢谢 تعني شكرًا.
+再见 (zàijiàn) تعني:|إلى اللقاء|أهلًا|شكرًا|نعم|再见 تستخدم عند الوداع.
+我 (wǒ) تعني:|أنا|أنت|هو|نحن|我 ضمير المتكلم أنا.
+你 (nǐ) تعني:|أنت|أنا|هي|هم|你 ضمير المخاطب أنت.
+水 (shuǐ) تعني:|ماء|كتاب|مدرسة|بيت|水 تعني ماء.
+书 (shū) تعني:|كتاب|ماء|طعام|قلم|书 تعني كتاب.
+中国 (Zhōngguó) تعني:|الصين|مصر|فرنسا|إيطاليا|中国 اسم الصين باللغة الصينية.
+早上好 (zǎoshang hǎo) تعني:|صباح الخير|مساء الخير|شكرًا|وداعًا|早上好 تحية الصباح.
+对不起 (duìbuqǐ) تعني:|آسف|مرحبًا|شكرًا|إلى اللقاء|对不起 تعني آسف.
+是 (shì) تعني:|نعم أو يكون|لا|ماء|كتاب|是 تستخدم للإثبات.
+不 (bù) تعني:|لا أو ليس|نعم|مرحبًا|شكرًا|不 أداة نفي.`),...vocab(pairs(`你好|مرحبًا
+谢谢|شكرًا
+再见|إلى اللقاء
+水|ماء
+书|كتاب
+学校|مدرسة
+朋友|صديق
+家|منزل
+老师|معلم
+`),"صينية")]),
+"التاريخ":()=>sh(facts(pairs(`حجر رشيد|حجر ساعد على فك رموز الهيروغليفية
+الثورة الفرنسية|ثورة عام 1789 ضد الحكم الملكي في فرنسا
+الحرب العالمية الأولى|حرب بدأت عام 1914
+الحرب العالمية الثانية|حرب انتهت عام 1945
+الثورة الصناعية|تحول الإنتاج من الورش اليدوية إلى المصانع الآلية
+عصر النهضة|حركة ثقافية أوروبية بدأت في إيطاليا
+المصدر الأولي|وثيقة أو أثر صنعه شاهد معاصر للحدث
+المصدر الثانوي|دراسة كتبها باحث لاحقًا عن الحدث
+علم الآثار|دراسة بقايا الإنسان القديم ومبانيه وأدواته
+الحضارة|مجموع الإنجازات المادية والفكرية لمجتمع ما
+عصر ما قبل التاريخ|الفترة السابقة لاختراع الكتابة
+الكتابة المسمارية|كتابة ابتكرها السومريون في بلاد الرافدين
+الأهرامات|مقابر ملكية بُنيت في عصر الدولة القديمة
+الإسكندر الأكبر|القائد المقدوني الذي أسس مدينة الإسكندرية
+التسلسل الزمني|ترتيب الأحداث حسب وقوعها في الزمن`))),
+"التاريخ المصري":()=>sh(facts(pairs(`مينا (نارمر)|موحد القطرين ومؤسس الأسرة الأولى
+الدولة القديمة|عصر بناء الأهرامات
+خوفو|صاحب الهرم الأكبر بالجيزة
+أحمس|الملك الذي طرد الهكسوس من مصر
+حتشبسوت|ملكة مصرية بنت معبد الدير البحري
+رمسيس الثاني|ملك وقّع معاهدة سلام مع الحيثيين
+الحملة الفرنسية|حملة نابليون على مصر عام 1798
+محمد علي|مؤسس الأسرة العلوية ومصر الحديثة
+قناة السويس|افتُتحت للملاحة عام 1869
+ثورة 1919|ثورة شعبية بقيادة سعد زغلول ضد الاحتلال
+ثورة 23 يوليو|ثورة الضباط الأحرار عام 1952
+تأميم القناة|قرار جمال عبد الناصر عام 1956
+حرب أكتوبر|حرب 1973 التي عبر فيها الجيش القناة
+طلعت حرب|مؤسس بنك مصر عام 1920
+تحتمس الثالث|ملك فرعوني قاد حملات واسعة ووسّع حدود الإمبراطورية`))),
+"علم النفس":()=>sh(facts(pairs(`علم النفس|الدراسة العلمية للسلوك والعمليات العقلية
+السلوك|نشاط يصدر عن الكائن الحي ويمكن ملاحظته
+الدافع|حالة داخلية توجه السلوك نحو هدف
+الذاكرة|القدرة على تخزين المعلومات واسترجاعها
+الانتباه|تركيز الوعي على مثير معين
+الإدراك|تفسير المثيرات الحسية وإعطاؤها معنى
+التعلم|تغير ثابت نسبيًا في السلوك نتيجة الخبرة
+الانفعال|حالة وجدانية مثل الخوف والفرح
+الشخصية|أنماط ثابتة نسبيًا في تفكير الفرد وسلوكه
+بافلوف|صاحب تجارب الإشراط الكلاسيكي
+فرويد|مؤسس مدرسة التحليل النفسي
+الملاحظة العلمية|مراقبة الظاهرة بدقة لجمع بيانات عنها
+الاستبيان|أداة بأسئلة مكتوبة لجمع آراء عدد من الأفراد
+التعزيز|ما يزيد احتمال تكرار السلوك
+الإحباط|شعور ينشأ عند منع الفرد من تحقيق هدفه`))),
+"إدارة الأعمال":()=>sh(facts(pairs(`التخطيط|تحديد الأهداف ووسائل تحقيقها
+التنظيم|توزيع المهام والسلطات والموارد
+التوجيه|قيادة العاملين وتحفيزهم
+الرقابة|مقارنة الأداء الفعلي بالمخطط وتصحيح الانحراف
+SWOT|أداة لتحليل القوة والضعف والفرص والتهديدات
+التسويق|تعريف العميل بالمنتج وتلبية احتياجاته
+رأس المال|الأموال المستثمرة لبدء المشروع
+المنافسة|سعي شركات متعددة لجذب العملاء أنفسهم
+ريادة الأعمال|إطلاق مشروع جديد وتحمل مخاطره
+الميزانية التقديرية|خطة مالية تقدر الإيرادات والمصروفات
+الموارد البشرية|إدارة اختيار العاملين وتدريبهم
+العلامة التجارية|اسم أو رمز يميز منتجًا عن غيره
+المستهلك|من يشتري السلعة لاستخدامه الشخصي
+الشركة المساهمة|شركة رأس مالها مقسم إلى أسهم
+الربح|زيادة الإيرادات عن التكاليف`))),
+"اللغة العربية":()=>sh(facts(pairs(`المبتدأ|اسم مرفوع يقع في أول الجملة الاسمية
+الخبر|ما يتم به معنى المبتدأ
+الفاعل|اسم مرفوع يدل على من قام بالفعل
+المفعول به|اسم منصوب يقع عليه فعل الفاعل
+الحال|وصف منصوب يبين هيئة صاحبه وقت الفعل
+الجناس|تشابه لفظين في النطق واختلافهما في المعنى
+الطباق|الجمع بين الكلمة وضدها
+التشبيه|مقارنة بين شيئين لاشتراكهما في صفة
+الاستعارة|تشبيه حُذف أحد طرفيه
+الكناية|لفظ أريد به لازم معناه مع جواز المعنى الأصلي
+المرادف|كلمة تشترك مع أخرى في المعنى
+النعت|تابع يبين صفة المنعوت
+الجملة الاسمية|جملة تبدأ باسم
+الجملة الفعلية|جملة تبدأ بفعل
+الفعل الماضي|فعل يدل على حدث وقع قبل زمن الكلام`))),
+"المحاسبة":()=>build([
+ ()=>{const l=R(10,90)*100,e=R(10,90)*100;return mc(`خصوم منشأة ${l} جنيه وحقوق ملكيتها ${e} جنيه، فإجمالي أصولها:`,l+e,[l*e/100,Math.abs(l-e),l+e+100],"الأصول = الخصوم + حقوق الملكية.")},
+ ()=>{const a=R(30,90)*100,l=R(5,25)*100;return mc(`أصول منشأة ${a} جنيه وخصومها ${l} جنيه، فحقوق الملكية:`,a-l,[a+l,l,a-l+100,a-l-100],"حقوق الملكية = الأصول − الخصوم.")},
+ ()=>{const r=R(20,90)*1000,x=R(5,19)*1000;return mc(`إيرادات ${r} جنيه ومصروفات ${x} جنيه، فصافي الربح:`,r-x,[r+x,x,r-x+1000,r-x-1000],"صافي الربح = الإيرادات − المصروفات.")},
+ ()=>{const s=R(30,90)*1000,c=R(10,29)*1000;return mc(`مبيعات ${s} جنيه وتكلفة البضاعة المباعة ${c} جنيه، فمجمل الربح:`,s-c,[s+c,c,s-c+2000,s-c-2000],"مجمل الربح = المبيعات − تكلفة البضاعة المباعة.")}
+],facts(pairs(`الأصول|ما تملكه المنشأة من موارد ذات قيمة
+الخصوم|التزامات المنشأة تجاه الغير
+حقوق الملكية|حق صاحب المنشأة في أصولها بعد خصم الخصوم
+الإيرادات|مبالغ مكتسبة من بيع السلع وتقديم الخدمات
+المصروفات|تكاليف تُنفق لتحقيق الإيراد
+قيد اليومية|تسجيل العملية المالية مبدئيًا بالتاريخ والحسابات
+ميزان المراجعة|كشف للتأكد من تساوي مجموع الأرصدة المدينة والدائنة
+الفاتورة|مستند يثبت عملية البيع ببيانات البائع والمشتري`).slice(0,5))),
+"الثقافة المالية":()=>build([
+ ()=>{const p=R(1,20)*1000,r=P([5,8,10,12]),t=R(1,5);return mc(`فائدة بسيطة على ${p} جنيه بمعدل ${r}% لمدة ${t} سنوات:`,p*r*t/100,[p*r/100,p*r*t/100+p/10,p*t,p*r*t/10],`الفائدة = الأصل × المعدل × المدة = ${p*r*t/100}.`)},
+ ()=>{const p=R(2,20)*100,d=P([10,20,25,50]);return mc(`سلعة سعرها ${p} جنيه عليها خصم ${d}%، فسعرها بعد الخصم:`,p*(100-d)/100,[p*d/100,p-d,p*(100-d)/100+50,p+p*d/100],`السعر بعد الخصم = ${p} − ${p*d/100} = ${p*(100-d)/100}.`)},
+ ()=>{const i=R(40,90)*100,s=R(5,20)*100;return mc(`دخل شهري ${i} جنيه والمصروف ${i-s} جنيه، فالمدّخر:`,s,[i,i+s,s+100,s-100],"المدّخر = الدخل − المصروف.")}
+],facts(pairs(`الادخار|جزء من الدخل لا يُنفق اليوم ويُحتفظ به للمستقبل
+التضخم|ارتفاع عام ومستمر في مستوى الأسعار
+الفائدة|مقابل يُدفع نظير استخدام المال المقترض
+الاستثمار|توظيف المال للحصول على عائد في المستقبل
+الميزانية الشخصية|خطة تنظم الدخل والمصروفات
+الدين|مبلغ مقترض يجب سداده
+البنك المركزي|مؤسسة تشرف على النظام المصرفي والسياسة النقدية`).slice(0,5)))
+};
+GEN["الإنجليزية"]=GEN["اللغة الإنجليزية"];
+GEN["البرمجة والذكاء الاصطناعي"]=()=>build([
+ ()=>{const n=R(2,8),m=R(2,9);return mc(`إذا كان x = ${n}، فما ناتج x * ${m} في برنامج بايثون؟`,n*m,[n+m,n*m+1,n**m],`نضرب قيمة المتغير ${n} في ${m} فيكون الناتج ${n*m}.`)},
+ ()=>{const n=R(3,12);return mc(`كم مرة تتكرر الحلقة for i in range(${n}) في بايثون؟`,n,[n-1,n+1,n*2],`الدالة range(${n}) تنتج الأعداد من 0 إلى ${n-1}، أي ${n} مرات.`)},
+ ()=>{const a=R(10,40),b=R(2,9);return mc(`ما ناتج ${a} % ${b} في بايثون؟`,a%b,[Math.floor(a/b),a%b+1,b],`العامل % يعيد باقي القسمة، وباقي ${a} ÷ ${b} هو ${a%b}.`)},
+ ()=>{const a=R(2,9),b=R(2,9);return mc(`إذا كانت دالة الذكاء الاصطناعي تصنف ${a} صورًا في كل ثانية، فكم صورة تصنف في ${b} ثوانٍ؟`,a*b,[a+b,a*b+1,b],`العدد = ${a} × ${b} = ${a*b} صور.`)}
+],facts(pairs(`الخوارزمية|مجموعة خطوات مرتبة لحل مشكلة
+المتغير|اسم يشير إلى قيمة يمكن أن تتغير
+الشرط|اختبار يحدد تنفيذ أمر بناءً على تحقق عبارة
+الحلقة التكرارية|تنفيذ مجموعة أوامر أكثر من مرة
+الدالة|جزء من البرنامج ينفذ مهمة محددة
+البيانات|معلومات يمكن للحاسوب تخزينها ومعالجتها
+الذكاء الاصطناعي|مجال يطور أنظمة تنفذ مهام تتطلب عادة قدرات ذهنية
+التعلم الآلي|طريقة تجعل النظام يتعلم أنماطًا من البيانات
+مجموعة التدريب|بيانات تستخدم لتعليم نموذج التعلم الآلي
+النموذج|نظام يتعلم الأنماط ويستخدمها لإنتاج تنبؤ أو قرار
+لغة البرمجة|لغة تستخدم لكتابة تعليمات يفهمها الحاسوب
+تصحيح الأخطاء|اكتشاف أخطاء البرنامج وإصلاحها
+`)));
+
+/* ===== التخزين والاختبار ===== */
+const mem={},ST={get(k,d){try{const v=localStorage.getItem("masari_"+k);if(v!==null)return JSON.parse(v)}catch(e){}return k in mem?mem[k]:d},set(k,v){mem[k]=v;try{localStorage.setItem("masari_"+k,JSON.stringify(v))}catch(e){}}};
+let Q=[],qi=0,score=0,done=false,res=false,mode="normal",subj="",TI=null,tOn=ST.get("timer",false),curKey="medicine";
+const $=id=>document.getElementById(id),ov=$("quizOverlay"),qb=$("quizBody"),stopT=()=>clearInterval(TI);
+const show=(t,s)=>{$("quizTitle").textContent=t;$("quizSubtitle").textContent=s;ov.classList.add("open");document.body.classList.add("lock")};
+const bd=n=>{const a=ST.get("prog",{})[n];return a&&a.length?`آخر نتيجة ${a[a.length-1].s}/${a[a.length-1].t}`:"مادة"};
+const mb=n=>{const m=(ST.get("miss",{})[n]||[]).length;return m?`<button type="button" class="eval-link" data-m="${n}">🔁 أخطائي (${m})</button>`:""};
+function openQuiz(s,m){
+  mode=m||"normal";subj=s;
+  Q=mode==="review"?(ST.get("miss",{})[s]||[]).map(x=>({...x})):(GEN[s]||GEN["اللغة الإنجليزية"])();
+  if(!Q.length)return;
+  qi=0;score=0;res=false;
+  show(`${mode==="review"?"مراجعة أخطاء":"اختبار"} ${s}`,`الصف الثاني الثانوي • ${Q.length} سؤالًا مع تصحيح فوري`);
+  $("tgWrap").hidden=false;$("tmToggle").checked=tOn;renderQ();
+}
+function renderQ(){
+  stopT();done=false;const it=Q[qi];
+  qb.innerHTML=`<div style="display:flex;justify-content:space-between;color:var(--muted);font-size:.9rem"><span>السؤال ${qi+1} من ${Q.length}</span><span id="tmr"></span><span id="sc">النتيجة: ${score}</span></div>
+  <div class="quiz-progress"><span style="width:${qi/Q.length*100}%"></span></div>
+  <div class="quiz-question">${it.q}</div>
+  <div class="quiz-options">${it.o.map((o,i)=>`<button type="button" class="quiz-option" style="animation-delay:${i*.07}s" data-i="${i}">${["أ","ب","ج","د"][i]}. ${o}</button>`).join("")}</div>
+  <div class="quiz-feedback" id="fb" hidden></div>
+  <div class="quiz-footer"><span style="color:var(--muted);font-size:.9rem">اختر إجابة واحدة</span><button type="button" class="quiz-next" id="nx" disabled>${qi<Q.length-1?"التالي ←":"النتيجة"}</button></div>`;
+  qb.querySelectorAll(".quiz-option").forEach(b=>b.onclick=()=>answer(+b.dataset.i,b));
+  $("nx").onclick=()=>{qi<Q.length-1?(qi++,renderQ()):result()};
+  if(tOn){let t=45;const el=$("tmr");el.textContent="⏱ 45";TI=setInterval(()=>{t--;el.textContent=`⏱ ${t}`;if(t<=10)el.style.color="#ff8b8b";if(t<=0){stopT();answer(-1,null)}},1000)}
+}
+function answer(i,btn){
+  if(done)return;done=true;stopT();
+  const it=Q[qi],fb=$("fb"),M=ST.get("miss",{}),L=M[subj]||[];
+  qb.querySelectorAll(".quiz-option").forEach((b,k)=>{b.disabled=true;if(k===it.a)b.classList.add("correct")});
+  if(i===it.a){score++;fb.innerHTML=`<strong style="color:#36c98f">إجابة صحيحة ✓</strong><br>${it.e}`;if(mode==="review")M[subj]=L.filter(x=>x.q!==it.q)}
+  else{if(btn)btn.classList.add("wrong");fb.innerHTML=`<strong style="color:#ff8b8b">${i<0?"انتهى الوقت ⏱":"إجابة غير صحيحة."}</strong> الصحيحة: <strong>${it.o[it.a]}</strong><br>${it.e}`;if(!L.some(x=>x.q===it.q))M[subj]=[...L,{q:it.q,o:it.o,a:it.a,e:it.e}].slice(-40)}
+  ST.set("miss",M);fb.hidden=false;$("nx").disabled=false;$("sc").textContent=`النتيجة: ${score}`;
+}
+function result(){
+  res=true;stopT();$("tgWrap").hidden=true;
+  const p=Math.round(score/Q.length*100);
+  if(mode==="normal"){const D=ST.get("prog",{});D[subj]=[...(D[subj]||[]),{s:score,t:Q.length}].slice(-10);ST.set("prog",D)}
+  renderTrack(curKey);
+  const left=(ST.get("miss",{})[subj]||[]).length;
+  qb.innerHTML=`<div class="quiz-result"><div style="font-size:3.4rem">🏆</div><h3>انتهى الاختبار</h3><div class="quiz-score">${score} / ${Q.length}</div><p style="color:var(--muted)">درجتك: ${p}%</p><p>${p>=80?"ممتاز! استمر في التدريب 👏":p>=50?"جيد، راجع الأسئلة التي أخطأت فيها وأعد الاختبار.":"لا تقلق، راجع الدرس وحاول مرة أخرى."}</p>${left?`<p style="color:var(--muted);font-size:.9rem">لديك ${left} سؤالًا في «أخطائي» لهذه المادة.</p>`:""}<p style="color:var(--muted);font-size:.85rem">اختبار تدريبي للمراجعة وليس امتحانًا رسميًا.</p>
+  <div class="quiz-footer" style="justify-content:center"><button type="button" class="quiz-next" id="rt">${mode==="review"?"مراجعة المتبقي":"اختبار جديد"}</button><button type="button" class="quiz-close" id="dn">إغلاق</button></div></div>`;
+  $("rt").onclick=()=>{if(mode==="review"&&!left)closeQuiz();else{$("tgWrap").hidden=false;openQuiz(subj,mode)}};$("dn").onclick=closeQuiz;
+  if(p>=80)for(let i=0;i<30;i++){const s=document.createElement("span");s.className="cf";s.textContent=P(["🎉","✨","⭐","🏅"]);s.style.cssText=`left:${R(0,98)}vw;animation-delay:${Math.random()}s`;document.body.append(s);setTimeout(()=>s.remove(),4000)}
+}
+function closeQuiz(){stopT();ov.classList.remove("open");document.body.classList.remove("lock")}
+$("quizClose").onclick=closeQuiz;ov.onclick=e=>{if(e.target===ov)closeQuiz()};
+addEventListener("keydown",e=>{if(e.key==="Escape")closeQuiz()});
+$("tmToggle").onchange=e=>{tOn=e.target.checked;ST.set("timer",tOn);if(!res&&!done&&qb.querySelector(".quiz-question"))renderQ()};
+
+/* ===== تحديد المسار ===== */
+const PLQ=[["أي نشاط تفضله؟",["تجربة علمية أو دراسة جسم الإنسان","برمجة تطبيق أو حل مشكلة تقنية","الكتابة أو الرسم أو تعلم لغة جديدة","إدارة مشروع أو حساب الأرباح"]],
+["أي مادة تستمتع بها أكثر؟",["الكيمياء والأحياء","الحاسب والمنطق","اللغات وعلم النفس","المحاسبة والاقتصاد"]],
+["ماذا تتمنى أن تصبح؟",["طبيبًا أو صيدليًا","مهندسًا أو مبرمجًا","إعلاميًا أو مترجمًا أو فنانًا","رجل أعمال أو محاسبًا"]],
+["كيف تقضي وقت فراغك؟",["أقرأ عن العلوم والصحة","أبني شيئًا رقميًا","أشاهد أفلامًا وأقرأ قصصًا","أتابع الأسواق والمشاريع"]],
+["ما نقطة قوتك؟",["الدقة والحفظ","التفكير المنطقي","التعبير والإبداع","التنظيم والقيادة"]],
+["أي مكان عمل يناسبك؟",["مستشفى أو معمل","شركة تقنية","استوديو أو مؤسسة إعلامية","شركة أو بنك"]],
+["أي خبر يشدك أكثر؟",["اكتشاف دواء جديد","تقنية ذكاء اصطناعي جديدة","معرض فني أو ترجمة عمل أدبي","نمو شركة ناشئة"]]];
+function openPlace(){
+  stopT();res=true;$("tgWrap").hidden=true;show("🎯 حدد مسارك","اختر الإجابة الأقرب لميولك، فلا توجد إجابة خاطئة");
+  let i=0;const sc=[0,0,0,0];
+  const step=()=>{
+    if(i>=PLQ.length)return end();
+    qb.innerHTML=`<div style="color:var(--muted);font-size:.9rem">السؤال ${i+1} من ${PLQ.length}</div><div class="quiz-progress"><span style="width:${i/PLQ.length*100}%"></span></div><div class="quiz-question">${PLQ[i][0]}</div><div class="quiz-options">${PLQ[i][1].map((o,k)=>`<button type="button" class="quiz-option" data-k="${k}">${o}</button>`).join("")}</div>`;
+    qb.querySelectorAll(".quiz-option").forEach(b=>b.onclick=()=>{sc[+b.dataset.k]++;i++;step()})};
+  const end=()=>{const m=Math.max(...sc),w=tracks.filter((t,k)=>sc[k]===m);
+    qb.innerHTML=`<div class="quiz-result"><div style="font-size:3.2rem">${w[0].icon}</div><h3>المسار الأقرب لميولك</h3><div class="quiz-score" style="font-size:1.8rem">${w.map(t=>t.name).join(" • ")}</div><p style="color:var(--muted)">هذا اقتراح مبني على ميولك فقط، والقرار النهائي يعتمد على مجموعك ورغبتك.</p><div class="quiz-footer" style="justify-content:center"><button type="button" class="quiz-next" id="go">استعرض المسار</button><button type="button" class="quiz-close" id="again">أعد التحديد</button></div></div>`;
+    $("go").onclick=()=>{closeQuiz();document.querySelector(`.track-card[data-key="${w[0].key}"]`).click();$("paths").scrollIntoView({behavior:"smooth"})};$("again").onclick=openPlace};
+  step();
+}
+
+/* ===== تقدمي ===== */
+function openProg(){
+  stopT();res=true;$("tgWrap").hidden=true;show("📈 تقدمي","آخر 10 محاولات لكل مادة");
+  const D=ST.get("prog",{}),M=ST.get("miss",{}),ns=[...new Set(tracks.flatMap(t=>t.subjects.map(s=>s[0])))].filter(n=>(D[n]||[]).length||(M[n]||[]).length);
+  qb.innerHTML=ns.length?ns.map(n=>{const a=D[n]||[],l=a[a.length-1],b=Math.max(0,...a.map(x=>x.s)),m=(M[n]||[]).length;
+    return `<div class="prow"><div><strong>${n}</strong><div class="pmeta">${l?`آخر نتيجة ${l.s}/${l.t} • أفضل ${b} • ${a.length} محاولات`:"لا محاولات بعد"}${m?` • ${m} للمراجعة`:""}</div></div><div class="spark">${a.map(x=>`<i style="height:${Math.max(8,x.s/x.t*100)}%"></i>`).join("")}</div>${m?`<button type="button" class="eval-link" data-r="${n}">🔁 راجع</button>`:""}</div>`}).join("")+`<div class="quiz-footer" style="justify-content:center"><button type="button" class="quiz-close" id="clr">مسح تقدمي</button></div>`
+  :`<p style="color:var(--muted);text-align:center;padding:20px 0">لم تجرب أي اختبار بعد. ابدأ بأي مادة وستظهر نتائجك هنا.</p>`;
+  qb.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>openQuiz(b.dataset.r,"review"));
+  const c=$("clr");if(c)c.onclick=()=>{ST.set("prog",{});ST.set("miss",{});renderTrack(curKey);openProg()};
+}
+
+/* ===== عرض المسارات ===== */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+const watch=()=>document.querySelectorAll(".rv:not(.in)").forEach(el=>io.observe(el));
+function tilt(root){root.querySelectorAll(".track-card,.eval-card,.college-card").forEach(c=>{
+  c.onmousemove=e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;c.style.transform=`perspective(700px) rotateX(${(.5-y)*8}deg) rotateY(${(x-.5)*8}deg) translateY(-4px)`;c.style.setProperty("--mx",x*100+"%");c.style.setProperty("--my",y*100+"%")};
+  c.onmouseleave=()=>c.style.transform=""})}
+/* روابط الكتب والتقييمات الرسمية لكل مادة */
+const SUBJECT_URLS = {
+  "اللغة العربية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/Arabic/",
+  "التاريخ": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/EgyptianHistory/",
+  "اللغة الإنجليزية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/FirstForeignLanguage/english/",
+  "الرياضيات": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Medicine-LifeSciences/Mathematics/",
+  "الفيزياء": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Medicine-LifeSciences/Physics/",
+  "الكيمياء": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Engineering-ComputerScience/Chemistry/",
+  "البرمجة والذكاء الاصطناعي": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Engineering-ComputerScience/Programming-ArtificialIntelligence/",
+  "علم النفس": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/Psychology/",
+  "اللغة الفرنسية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/SecondForeignLanguages/french/",
+  "اللغة الألمانية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/SecondForeignLanguages/german/",
+  "اللغة الإسبانية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/SecondForeignLanguages/spanish/",
+  "اللغة الإيطالية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/SecondForeignLanguages/italy/",
+  "اللغة الصينية": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/SecondForeignLanguages/Chinese/",
+  "المحاسبة": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Business/Accounting/",
+  "إدارة الأعمال": "https://studentbooks.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Business/BusinessAdministration/",
+};
+
+function renderTracks(){
+  $("trackCards").innerHTML=tracks.map((t,i)=>`<div class="track-card glass rv ${i?"":"active"}" data-key="${t.key}" style="transition-delay:${i*.1}s" tabindex="0"><div class="track-icon">${t.icon}</div><h3>${t.name}</h3><p>${t.description}</p><a class="track-eval-link" href="#subjectsGrid" onclick="event.preventDefault();event.stopPropagation();renderTrack('${t.key}');document.getElementById('subjectsGrid').scrollIntoView({behavior:'smooth',block:'start'})">📚 عرض مواد المسار</a></div>`).join("");
+  document.querySelectorAll(".track-card").forEach(c=>c.onclick=()=>{document.querySelectorAll(".track-card").forEach(x=>x.classList.remove("active"));c.classList.add("active");renderTrack(c.dataset.key)});
+  tilt($("trackCards"));watch();
+}
+function renderTrack(k){
+  const t=tracks.find(x=>x.key===k)||tracks[0];curKey=t.key;
+  $("trackTitle").textContent=t.name;$("trackTag").textContent=t.tag;
+  $("subjectsGrid").innerHTML=t.subjects.map((s,i)=>`<div class="subject-card" style="--i:${i}"><div class="meta"><div class="icon">${s[1]}</div><span class="tag">${bd(s[0])}</span></div><div><h4>${s[0]}</h4><p>${s[2]}</p></div><div class="subject-actions"><a href="${SUBJECT_URLS[s[0]] || '#'}" class="eval-link" target="_blank" rel="noopener noreferrer">📘 الكتب والتقييمات</a><button type="button" class="quiz-btn" data-s="${s[0]}">📝 اختبر نفسك</button>${mb(s[0])}</div></div>`).join("");
+  $("subjectsGrid").querySelectorAll(".quiz-btn").forEach(b=>b.onclick=()=>openQuiz(b.dataset.s));
+  $("subjectsGrid").querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>openQuiz(b.dataset.m,"review"));
+  $("collegesGrid").innerHTML=t.colleges.map((c,i)=>`<div class="college-card glass" style="--i:${i}"><div class="title">${c[0]}</div><ul>${c[1].map(x=>`<li>${x}</li>`).join("")}</ul></div>`).join("");
+  tilt($("collegesGrid"));
+}
+renderTracks();renderTrack("medicine");watch();
+$("bPlace").onclick=$("bPlace2").onclick=openPlace;$("bProg").onclick=openProg;
+const setTheme=l=>{document.body.classList.toggle("light",l);$("bTheme").textContent=l?"🌙":"☀️";ST.set("light",l)};
+setTheme(ST.get("light",false));$("bTheme").onclick=()=>setTheme(!document.body.classList.contains("light"));
+const names=[...new Set(tracks.flatMap(t=>t.subjects.map(s=>s[1]+" "+s[0])))];
+$("mq").innerHTML=[...names,...names].map(n=>`<span>${n}</span>`).join("");
+
+/* ===== المؤثرات ===== */
+$("entryStart").onclick=()=>{$("entryScreen").classList.add("hidden");document.body.classList.remove("lock");count()};
+function count(){document.querySelectorAll("[data-n]").forEach(el=>{const n=+el.dataset.n;let v=0;const s=setInterval(()=>{v+=Math.max(1,n/40);if(v>=n){v=n;clearInterval(s)}el.textContent=Math.round(v)},35)})}
+addEventListener("pointermove",e=>{$("glow").style.transform=`translate(${e.clientX}px,${e.clientY}px)`});
+addEventListener("scroll",()=>{$("bar").style.width=scrollY/(document.documentElement.scrollHeight-innerHeight)*100+"%"},{passive:true});
+(()=>{const c=$("fx"),x=c.getContext("2d");let w,h,ps=[];
+const rs=()=>{w=c.width=innerWidth;h=c.height=innerHeight;ps=Array.from({length:Math.min(70,w/18|0)},()=>({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.4,vy:(Math.random()-.5)*.4}))};rs();addEventListener("resize",rs);
+(function f(){x.clearRect(0,0,w,h);ps.forEach((p,i)=>{p.x=(p.x+p.vx+w)%w;p.y=(p.y+p.vy+h)%h;x.fillStyle="rgba(240,211,138,.7)";x.fillRect(p.x,p.y,2,2);
+for(let j=i+1;j<ps.length;j++){const q=ps[j],d=Math.hypot(p.x-q.x,p.y-q.y);if(d<120){x.strokeStyle=`rgba(217,183,107,${.15*(1-d/120)})`;x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.stroke()}}});requestAnimationFrame(f)})()})();
+</script>
+
+
+</body></html>
